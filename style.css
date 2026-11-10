@@ -1,0 +1,59 @@
+/* mengatur reset margin dan padding seluruh elemen */
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: sans-serif; }
+
+/* mengatur latar belakang dan warna teks utama */
+body { background: #f4f6f9; color: #333; }
+
+/* mengatur tata letak dan gaya bagian header */
+header { background: #2c3e50; color: #fff; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; }
+
+/* mengatur ukuran judul header */
+header h1 { font-size: 20px; }
+
+/* mengatur gaya tautan navigasi */
+nav a { color: #ecf0f1; text-decoration: none; margin-left: 15px; font-weight: bold; }
+
+/* efek sorot mouse pada tautan navigasi */
+nav a:hover { color: #3498db; }
+
+/* mengatur wadah utama konten */
+.container { max-width: 1000px; margin: 30px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+/* mengatur spasi judul halaman */
+h2 { margin-bottom: 20px; color: #2c3e50; }
+
+/* mengatur grup elemen formulir */
+.form-group { margin-bottom: 15px; }
+
+/* mengatur gaya label formulir */
+.form-group label { display: block; margin-bottom: 5px; font-weight: bold; }
+
+/* mengatur gaya elemen masukan teks dan pilihan */
+.form-group input, .form-group select, .form-group textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+
+/* gaya dasar tombol */
+.btn { padding: 8px 15px; border: none; border-radius: 4px; cursor: pointer; color: white; text-decoration: none; display: inline-block; font-size: 14px; }
+
+/* warna tombol utama */
+.btn-primary { background: #3498db; }
+
+/* warna tombol peringatan atau edit */
+.btn-warning { background: #f39c12; }
+
+/* warna tombol bahaya atau hapus */
+.btn-danger { background: #e74c3c; }
+
+/* mengatur struktur tabel data */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+
+/* garis tepi tabel dan sel */
+table, th, td { border: 1px solid #ddd; }
+
+/* padding isi tabel */
+th, td { padding: 10px; text-align: left; }
+
+/* latar belakang kepala tabel */
+th { background: #f2f2f2; }
+
+/* gaya bagian footer */
+footer { text-align: center; margin-top: 40px; padding: 15px; color: #777; }
